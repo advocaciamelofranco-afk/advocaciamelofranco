@@ -185,3 +185,12 @@ img{max-width:100%;display:block}
 .rel{margin-bottom:24px!important}
 @media (max-width:960px){.posts{grid-template-columns:1fr 1fr}}
 @media (max-width:600px){.posts{grid-template-columns:1fr}body{font-size:19px}}
+/* GEO: resposta rápida e tabelas */
+.resposta-curta{background:var(--creme);border:1px solid var(--borda);border-left:3px solid var(--dourado);padding:22px 26px;margin:0 0 32px}
+.resposta-curta p{margin:0;color:var(--texto)}
+.resposta-curta .resposta-tit{font-size:.8rem;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:var(--dourado-esc);margin-bottom:8px}
+.tabela-rolagem{overflow-x:auto;margin:0 0 1.4em}
+.tabela{width:100%;border-collapse:collapse;font-size:.98rem}
+.tabela th,.tabela td{text-align:left;padding:12px 14px;border-bottom:1px solid var(--borda);vertical-align:top}
+.tabela th{background:var(--verde);color:#fff;font-weight:600}
+.tabela tbody tr:nth-child(even){background:var(--suave)}
